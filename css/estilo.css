@@ -1,0 +1,153 @@
+ body{
+    background-color: #ffe4e1;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ #titulo{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin: 15px;
+    background-color: #ad0559;
+    padding: 25px;
+ }
+
+ .menu{
+    text-align: center;
+    margin: 15px;
+    text-decoration: none;
+ }
+
+ .menu{
+    text-decoration: none;
+    color: #c94788;
+    border-block-color: #bd40a2;
+    padding: 10px;
+    margin: 15px;
+    border-style: solid;
+    border-width: medium;
+    border-color: #5c4033;
+ }
+
+ .menu a:hover{
+        text-decoration: none;
+    color: white;
+    background-color: #d65ba7;
+    padding: 15px;
+    margin: 15px;
+    border-style: solid;
+    border-width: medium;
+    border-color: #5C4033;
+    font-size: 20px;
+ }
+
+ .principal{
+    text-align: center;
+    margin: 30px;
+ }
+
+ .principal{
+    border-style: solid;
+    border-width: medium;
+    border-color: #5c4033;
+    padding: 10px;
+ }
+
+ .principal h2{
+    color: #5c4033;
+    font-size: 30px;
+ }
+
+ .principal p{
+    font-size: 20px;
+    margin: 20px;
+ }
+
+ .tabela-servicos{
+    margin: 30px;
+    text-align: center;
+ }
+
+table{
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+caption{
+    font-size: 40px;
+    color: #ff0062;
+    margin: 20px;
+}
+
+th{
+    background-color: #f4a6b8;
+    color: white;
+    padding: 15px;
+}
+
+td{
+    padding: 15px;
+}
+th, td{
+    border-style: solid;
+    border-width: medium;
+    border-color: #5c4033;
+}
+tr:hover{
+    background-color: #fff0f5;
+}
+.formulario{
+    text-align: center;
+    margin: 30px;
+}
+.formulario h2{
+    color: #ff0062;
+    font-size: 30px;
+}
+input{
+    padding: 10px;
+    margin: 0px;
+    border-style: solid;
+    border-width: medium;
+    border-color: #5c4033;
+}
+select{
+    padding: 10px;
+    margin: 10px;
+    border-style: solid;
+    border-width: medium;
+    border-color: #5c4033;
+}
+textarea{
+    padding: 10px;
+    margin: 10px;
+    border-style: solid;
+    border-width: medium;
+    border-color: #5c4033;
+}
+button{
+    background-color: #f4a6b8; 
+    color: white;
+    padding: 15px;
+    border-style: solid;
+    border-width: medium;
+    border-color: #5c4033;
+}
+button:hover{
+    background-color: #5c4033;
+}
+.agendar{
+    text-decoration: none;
+    background-color: #F4A6B8;
+    color:white;
+    padding: 15px;
+    border-style: solid;
+    border-width: medium;
+    border-color: #5C4033;
+    font-size: 20px;
+    margin: 345px;
+}
+.agendar:hover{
+    background-color: #5C4033;
+}
