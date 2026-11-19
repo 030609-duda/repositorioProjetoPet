@@ -1,28 +1,63 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delicatto Pet Shop</title>
-    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../css/estilo.css"
 </head>
-<body>
-    <h1 id="titulo">Delicatto Pet Shop</h1>
-    <div class="menu">
-        <a href="arquivo.html">Home</a>
-        <a href="servicos.html">Serviços</a>
-        <a href="contato.html">Contato</a>
-    </div>
-    <div class="principal">
-        <img src="../img/img.pg1.png" alt="Imagem de pets" width="800">
-        <h2>Seja bem-vindo ao Delicatto Pet Shop</h2>
+<body> <!--Contém tudo o que aparece no site-->
+    <header> <!--Cabeçalho da página-->
+        <h1>Delicatto Pet Shop</h1> <!--Título principal-->
+    </header>
+    <!--Menu de navegação do site-->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <!--barra de navegação/expande o menu em telas grandes/cores do menu com fundos escuros-->
+        <div class="container">
+            <!--organiza o conteúdo e limita a largura-->
+            <a class="navbar-brand" href="arquivo.html">
+                Delicatto Pet Shop
+                <!--estiliza o nome da marca-->
+            </a>
+            <!--cria o botão do menu para telas pequenas-->
+            <!--colapse: esconder/expandir o menu-->
+            <!--target: qual elemento será controlado pelo botão-->
+            <!--icon: cria o icone de três linhas-->
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="colapse"
+                data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--cria a areá que será recolhida/expandida-->
+            <!--ul: lista não ordenada-->
+            <!--navbar-collapse: estilo de lista de navegação-->
+            <!--posiciona os itens mais para a direita-->
+            <!--nav-item: estilo adequado para a barra de navegação-->
+            <div class="navbar-collapse" id-menu>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="arquivo.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicos.html">Serviços</a>
+                    </li
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Conteúdo da página-->
+    <!--btn-success: aparência do botão-->
+    <section class="container">
+        <h2>Bem-vindo ao Delicatto Pet Shop!</h2>
         <p>
-            Aqui, cada patinha recebe carinho de verdade.
+            Tudo o que seu pet precisa para viver com mais cuidado, carinho e qualidade
         </p>
-        <p>
-            Oferecemos banho, tosa e atendimento veterinário especializado.
-        </p>
-
-    </div>
+        <a href="servicos.html" class="btn btn-success">
+            Conheça nossos serviços
+        </a>
+    </section>
 </body>
 </html>
